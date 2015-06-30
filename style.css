@@ -16,7 +16,7 @@ body{
 	background:url('img/bg_vert.jpg') repeat-x,url('img/bg_tile.jpg');
 }
 
-#page{
+.page{
 	width:600px;
 	margin:150px auto 0;
 }
@@ -25,21 +25,21 @@ body{
 /* Logo */
 
 
-#logo{
+.logo{
 	width:380px;
 	position:relative;
 	height:90px;
 	margin:0 auto;
 }
 
-#icon{
+.icon{
 	width:80px;
 	height:86px;
 	background:url('img/icon.png') no-repeat;
 	float:left;
 }
 
-#movieAppLabel{
+.movieAppLabel{
 	width:268px;
 	height:58px;
 	background:url('img/logo_txt.png') no-repeat;
@@ -52,7 +52,7 @@ body{
 /* The Search Box & Holder */
 
 
-#holder{
+.holder{
 	width:530px;
 	height:145px;
 	background:url('img/holder.png') no-repeat center center;
@@ -60,14 +60,14 @@ body{
 	position:relative;
 }
 
-#holder fieldset{
+.holder fieldset{
 	position:absolute;
 	top:52px;
 	left:40px;
 	border-bottom:1px solid #fff;
 }
 
-#holder input{
+.holder input{
 	font-family:'Myriad Pro',Arial,Helvetica,sans-serif;
 	border:none;
 	border-bottom:1px solid #bbb;
