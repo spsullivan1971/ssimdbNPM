@@ -26,8 +26,11 @@ body{
 
 
 .logo{
+	display:block;
 	width:380px;
 	position:relative;
+	text-align: center;
+
 	height:90px;
 	margin:0 auto;
 }
@@ -159,8 +162,8 @@ h1{
 	font-size:3rem;
 	font-weight:normal;
 	font-family:Corbel,'Myriad Pro',Arial, Helvetica, sans-serif;
-	margin-top:50px;
-	text-align:center;
+	margin-top:10px;
+	text-align:inherit;
 	text-shadow:none;
 }
 

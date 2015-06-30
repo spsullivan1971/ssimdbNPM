@@ -1,5 +1,5 @@
 // views!!
-var PostView = Backbone.View.extend({
+var MovieView = Backbone.View.extend({
   template: _.template($('#postTmpl').html()),
   tagName: 'article',
   events: {
@@ -20,14 +20,13 @@ var PostView = Backbone.View.extend({
     return this;
   }
 });
-var PostCollectionView = Backbone.View.extend({
+var MovieCollectionView = Backbone.View.extend({
   el: '#container',
   collection: null,
   events: {
 
   },
   initialize: function (options) {
-    console.log('options', options);
 
     this.addAll();
   },
@@ -38,8 +37,8 @@ var PostCollectionView = Backbone.View.extend({
     _.each(this.collection.models, this.addOne, this);
   },
   addOne: function (post, idx, arr) {
-    var postView = new PostView({model: post});
-    this.$el.append(postView.render().el);
+    var movieView = new MovieView({model: post});
+    this.$el.append(movieView.render().el);
   }
 
 });

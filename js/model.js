@@ -3,10 +3,10 @@ var MovieModel = Backbone.Model.extend({
   idAttribute: '_id',
   defaults: function () {
     return {
-      Title: "movieTitle",
-      poster: "moviePoster",
-      plot: "plotDescription",
-      rating: "movieRating",
+      Title: "MovieTitle",
+      poster: "MoviePoster",
+      plot: "PlotDescription",
+      rating: "MovieRating",
     };
   },
   initialize: function (options) {

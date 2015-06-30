@@ -1,4 +1,4 @@
-var PostCollection = Backbone.Collection.extend({
+var MovieCollection = Backbone.Collection.extend({
   model: MovieModel,
   url: 'http://tiy-fee-rest.herokuapp.com/collections/SSimdbNPM'
 });
