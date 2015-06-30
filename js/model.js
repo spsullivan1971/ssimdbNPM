@@ -1,4 +1,4 @@
-var movieModel = Backbone.Model.extend({
+var MovieModel = Backbone.Model.extend({
   urlRoot: 'http://tiy-fee-rest.herokuapp.com/collections/SSimdbNPM',
   idAttribute: '_id',
   defaults: function () {
