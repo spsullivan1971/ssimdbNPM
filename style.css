@@ -13,7 +13,7 @@ body{
 	background-color:#57575d;
 
 	/* Multiple backgrounds */
-	background:url('img/bg_vert.jpg') repeat-x,url('img/bg_tile.jpg');
+	background:url('images/bg_vert.jpg') repeat-x,url('images/bg_tile.jpg');
 }
 
 .page{
@@ -35,14 +35,14 @@ body{
 .icon{
 	width:80px;
 	height:86px;
-	background:url('img/icon.png') no-repeat;
+	background:url('images/icon.png') no-repeat;
 	float:left;
 }
 
 .movieAppLabel{
 	width:268px;
 	height:58px;
-	background:url('img/logo_txt.png') no-repeat;
+	background:url('images/logo_txt.png') no-repeat;
 	position:absolute;
 	right:0;
 	top:18px;
@@ -55,7 +55,7 @@ body{
 .holder{
 	width:530px;
 	height:145px;
-	background:url('img/holder.png') no-repeat center center;
+	background:url('images/holder.png') no-repeat center center;
 	margin:30px auto;
 	position:relative;
 }
@@ -89,7 +89,7 @@ fieldset{
 
 
 a.button{
-	background:url('img/buttons.png') no-repeat;
+	background:url('images/buttons.png') no-repeat;
 	width:105px;
 	height:37px;
 	position:absolute;
@@ -146,10 +146,17 @@ ul.ui-autocomplete li a{
 
 
 /* Only Needed For The Demo Page */
-
+h3 {
+	font-size:2rem;
+	font-weight:normal;
+	font-family:Corbel,'Myriad Pro',Arial, Helvetica, sans-serif;
+	margin-top:5px;
+	text-align:center;
+	text-shadow:none;
+}
 
 h1{
-	font-size:15px;
+	font-size:3rem;
 	font-weight:normal;
 	font-family:Corbel,'Myriad Pro',Arial, Helvetica, sans-serif;
 	margin-top:50px;
