@@ -4,6 +4,8 @@ var MovieView = Backbone.View.extend({
   tagName: 'article',
   events: {
     'click .add': 'alertMe'
+    //'click .edit': 'openEditDialogBox'
+    //'submit .editSubmit': 'saveUpdatedMove'
   },
   alertMe: function (event) {
     event.preventDefault();
@@ -18,7 +20,16 @@ var MovieView = Backbone.View.extend({
     this.$el.html(markup);
     // console.log('in render', this.el);
     return this;
-  }
+  }//,
+  //openEditDialogBox: function() {
+      //this.render()
+  //},
+  //saveUpdatedMove: function() {
+    //1. this.model.set({
+      //Title: $(grab from the dom).val();
+  //})
+  //this.model.save();
+  //}
 });
 var MovieCollectionView = Backbone.View.extend({
   el: '#container',
@@ -27,7 +38,6 @@ var MovieCollectionView = Backbone.View.extend({
 
   },
   initialize: function (options) {
-
     this.addAll();
   },
   changeColor: function (event) {
