@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db710faf-92de-4db3-87d4-146dc6d1a462" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/2001_poster.jpg" afterPath="$PROJECT_DIR$/images/2001_poster.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/LawofArabia_poster.jpg" afterPath="$PROJECT_DIR$/images/LawofArabia_poster.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/alien.jpg" afterPath="$PROJECT_DIR$/images/alien.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/cetk-poster.jpg" afterPath="$PROJECT_DIR$/images/cetk-poster.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/jaws.jpg" afterPath="$PROJECT_DIR$/images/jaws.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/la-jument-verte.jpg" afterPath="$PROJECT_DIR$/images/la-jument-verte.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/star-wars-poster.jpg" afterPath="$PROJECT_DIR$/images/star-wars-poster.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/the-shining.jpg" afterPath="$PROJECT_DIR$/images/the-shining.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.js" afterPath="$PROJECT_DIR$/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="SSimdbNPM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +54,8 @@
       <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5259467">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.82047683">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -241,11 +248,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="977" height="833" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35983264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35983264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2538071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -330,8 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5259467">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.82047683">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding />
         </state>
       </provider>
